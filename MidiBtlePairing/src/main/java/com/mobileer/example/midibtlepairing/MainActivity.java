@@ -16,11 +16,9 @@
 
 package com.mobileer.example.midibtlepairing;
 
-import android.Manifest;
 import android.app.Activity;
 import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.media.midi.MidiDevice;
 import android.media.midi.MidiDeviceInfo;
@@ -41,7 +39,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mobileer.example.midibtlepairing.R;
 
 import java.io.Closeable;
 import java.io.IOException;

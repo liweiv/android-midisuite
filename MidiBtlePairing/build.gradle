@@ -24,6 +24,7 @@ android {
 
         }
     }
+    namespace 'com.mobileer.example.midibtlepairing'
 }
 
 dependencies {
